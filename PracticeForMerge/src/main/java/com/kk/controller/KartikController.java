@@ -13,4 +13,9 @@ public class KartikController {
     public String sayName(){
         return "I am Kartik Kadam";
     }
+
+    @GetMapping
+    public String sayAddress(){
+        return "< NANDED | MAHARASHTRA | INDIA | ASIA | EARTH >";
+    }
 }
