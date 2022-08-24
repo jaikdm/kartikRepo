@@ -13,4 +13,10 @@ public class KartikController {
     public String sayName(){
         return "I am Kartik Kadam";
     }
+
+    @GetMapping
+    public String changesByYogesh() {
+        return "Chenges made by yogeshwar Please review and do needful if any Scrum Kartik Sir" ;
+   
+    }
 }
