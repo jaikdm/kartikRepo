@@ -19,4 +19,9 @@ public class KartikController {
         return "Chenges made by yogeshwar Please review and do needful if any Scrum Kartik Sir" ;
    
     }
+
+    @GetMapping("/address")
+    public String sayAddress(){
+        return "< NANDED | MAHARASHTRA | INDIA | ASIA | EARTH >";
+    }
 }
